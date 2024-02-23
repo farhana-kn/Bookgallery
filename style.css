@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(22, 219, 219);
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+header h2{
+    color: rgb(107, 17, 192);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+h2:hover{
+    color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row{
+    background-color: rgb(22, 22, 161);
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col{
+    background-color: rgb(57, 154, 163);
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+img{
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+h4,h5{
+    text-align: center;
+    color: cornsilk;
+}
+
+#btn{
+    color: rgb(16, 16, 155);
+    background-color: bisque;
+    padding: 5px;
+    margin-left: 110px;
+}
+
+footer,p{
+    background-color: rgb(18, 43, 88);
+    width: 100%;
+    height: 50px;
+    color: blanchedalmond;
+}
+
+h3{
+    color: rgb(2, 8, 8);
+    text-align: center;
+}
+
+.banner{
+    background-image: url(https://i.pinimg.com/originals/40/44/ee/4044eeb36d5096b29b19c8f1831d9997.jpg);
+    width: 100%;
+    height: 500px;
+}
+
